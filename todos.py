@@ -5,9 +5,9 @@ while True:
     print("Czas zabrać się za:", los)
     print("Zrobione? T czy N?")
     done=input()
-    if done=="N":
+    if done=="N" or done=="n":
         print("To rusz się do roboty!")
         done=input()
-    elif done=="T":
+    elif done=="T" or done=="t":
         print("Usuwam", los, "z listy do zrobienia!")
         todos.remove(los)
