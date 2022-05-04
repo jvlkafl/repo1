@@ -11,3 +11,4 @@ while True:
     elif done=="T" or done=="t":
         print("Usuwam", los, "z listy do zrobienia!")
         todos.remove(los)
+    print("usun epi, niepotrzeban :v")
